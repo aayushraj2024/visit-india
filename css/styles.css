@@ -12,6 +12,7 @@ body {
   text-align: center;
   line-height: 1.4;
   margin: 0;
+  max-width: 800px;
 }
 
 /* --------hero------------ */
