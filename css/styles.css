@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Spinnaker";
+  background-color: aliceblue;
+  color: #080c22;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* --------hero------------ */
+
+.hero {
+  background-color: aquamarine;
+  width: 100%;
+  min-height: 400px;
+  background-image: url("../images/taj-mahal.jpg");
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding: 100px 50px 30px 20px;
+}
+
+.hero .title {
+  font-size: 2rem;
+  width: 200px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #080c22;
+}
+
+.hero .title-focus {
+  font-size: 3rem;
+  text-transform: uppercase;
+  background: linear-gradient(to bottom, #ff9933 0%, #ffffff 60%, #138808 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero .description {
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #535c8f;
+  border-radius: 1rem;
+}
+
+/* ------------activiteis ----------- */
+
+.activities {
+  padding: 24px;
+  background: #c1c7dc;
+}
+
+.activities .heading {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.activity-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.activity {
+  padding: 16px;
+  width: 200px;
+}
+
+.activity img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 30px;
+  border: 2px solid rgb(162, 162, 250);
+}
+
+.activity .title {
+  font-size: 1.5reml;
+  margin-bottom: 10px;
+}
+
+.activity .description {
+  font-size: 0.8rem;
+}
+
+/* ---------guide--------- */
+
+.guide {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 40px;
+}
+
+.card {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  box-shadow: 0px 6px 0px 0px #1d3557;
+  border-radius: 8px;
+  background-color: #acc9cf;
+  padding: 16px 8px;
+}
+
+.card img {
+  width: 180px;
+  max-height: 250px;
+  border-radius: 8px;
+}
+
+.card .info h3 {
+  font-size: 1.5rem;
+  margin: 20px auto 16px;
+}
+
+.card .info h4 {
+  margin-top: 16px;
+}
